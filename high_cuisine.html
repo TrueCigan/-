@@ -9,40 +9,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Great+Vibes&family=Montserrat:wght@400&family=Pacifico&family=Quan+Black+Italic&family=Roboto:wght@400&display=swap" rel="stylesheet">
 
     <style>
+         body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4;
+        }
+
         header {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #800000;
-    height: 100px;
-    text-align: center;
-    color: white;
-}
+            display: flex;
+            background-color: #800000;
+            height: 100px;
+            text-align: center;
+            color: white;
+        }
 
-header div {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-    padding: 10px;
-}
+        header div {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
 
-header div:hover {
-    transform: scale(1.25);
-    background-color: #4c0000;
-}
+        header div:hover {
+            transform: scale(1.25);
+            background-color: #4c0000;
+        }
 
-a {
-    color: white;
-    text-decoration: none;
-}
+        a {
+            color: white;
+            text-decoration: none;
+        }
 
-.main-link, .reviews-link {
-    font-family: 'Quan Black Italic', sans-serif;
-    font-size: 30px;
-}
+        .main-link {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+        }
 
-.traditional-link {
+        .traditional-link {
             font-family: 'Caveat', cursive;
             font-size: 32px;
         }
@@ -56,7 +60,14 @@ a {
             font-family: 'Pacifico', cursive;
             font-size: 32px;
         }
-.menu-section {
+
+        .reviews-link {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+        }
+
+        /* Стили для секций меню */
+        .menu-section {
             margin-left: 90px;
             margin-bottom: 60px;
             padding-bottom: 30px;
